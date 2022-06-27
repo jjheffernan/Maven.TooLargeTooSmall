@@ -15,14 +15,20 @@ public class Main {
         double computerGuess = Math.floor(Math.random()*(max-min+1)+min);
 
         while (computerGuess != numInput) {
+
             if (numInput>computerGuess){
                 System.out.println("Guess was off by the high side, try again.");
+                System.out.println("Guess a again!"); // from Today's demo
+                numInput = scan.nextInt();
             }else if(numInput<computerGuess) {
                 System.out.println("Guess was off by the low side, try again.");
+                System.out.println("Guess a again!"); // from Today's demo
+                numInput = scan.nextInt();
             } else {
                 System.out.println("Winner winner chicken dinner!");
                 break;
             }
+
         }
 
         System.out.println(numInput);
