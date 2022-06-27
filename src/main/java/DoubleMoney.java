@@ -1,3 +1,4 @@
+/*
 import java.util.Scanner;
 
 public class DoubleMoney {
@@ -46,3 +47,4 @@ public class DoubleMoney {
         System.out.println("");
     }
 }
+*/

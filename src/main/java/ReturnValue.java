@@ -1,10 +1,13 @@
+/*
 import java.util.Scanner;
 
 public class ReturnValue {
 
-    /*
+    */
+/*
     Not good!! See comments
-     */
+     *//*
+
 
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
@@ -24,3 +27,4 @@ public class ReturnValue {
         return name;
     }
 }
+*/
